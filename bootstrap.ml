@@ -561,5 +561,5 @@ let () =
     ~dirs
     ~flags:"-I +threads"
     ~byte_flags:"unix.cma threads.cma"
-    ~native_flags:None
+    ~native_flags:(Some "unix.cmxa")
     ~pp
