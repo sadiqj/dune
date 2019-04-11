@@ -37,11 +37,6 @@ end
 
 module Thread = struct end
 
-type status_line_config =
-  { message   : string option
-  ; show_jobs : bool
-  }
-
 module File_watcher : sig
   type t
 
